@@ -55,5 +55,3 @@ Technologies Used
 - HTML: For structuring the interface.
 
 ---
-
-Enjoy your game with the Golf Score App!
