@@ -5,8 +5,8 @@ const teeBtns = document.querySelectorAll("#tee");
 const courseBtns = document.querySelectorAll(".course");
 const noTeeButton = document.getElementById("noTeeButton");
 
+// Course Selection
 const courseSelect = document.getElementById("course-select");
-
 courseSelect.addEventListener("change", () => {
   courseId = courseSelect.value;
   const courses = document.getElementById("courses");
@@ -18,6 +18,7 @@ courseSelect.addEventListener("change", () => {
   tees.classList.add("justify-content-center", "vw-60");
 });
 
+// Tee Selection
 const teeSelect = document.getElementById("tee-select");
 
 teeSelect.addEventListener("change", () => {
